@@ -1,6 +1,53 @@
-# Getting Started with Create React App
+# Project to display all my repository
+Implement an API fetch of your GitHub portfolio, show a page with a list of all your repositories on GitHub(the page should implement pagination for the repo list), and create another page showing data for a single repo clicked from the list of repos using nested routes while using all the necessary tools in react. Implement the proper SEO, Error Boundary (show a page to test the error boundary) and 404 pages. Good UI and Designs are important. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Repos URLs
+Click to see [my repos](https://github.com/safoah91)
+Click to see [my repos api](https://api.github.com/users/safoah91)
+
+## Todos
+
+- [ ] **Structure project and remove unneccesory file/folder**
+  - [ ] **Create components directory with the following pages**
+    - [ ] Helmet (to setup SEO)
+    - [ ] Home (to display all repos)
+    - [ ] Repo (to display a particular repo)
+    - [ ] PageNotFound (display page not found - 404)
+    - [ ] ErrorBoundary (test error boundary)
+    - [ ] Navbar (setup navigations)
+    - [ ] Footer (display footer on each page)
+- [ ] **Install packages**
+  - [ ] [Helmet](https://www.javatpoint.com/react-helmet) (setup SEO) `npm i --save react-helmet`
+  - [ ] [react-router-dom](https://v5.reactrouter.com/web/guides/quick-start) (setup Rounters) `npm i react-router-dom@6`
+  - [ ] [axios](https://axios-http.com/docs/intro) (fetch data from an endpoint) `npm i axios`
+  - [ ] [react-paginate](https://github.com/AdeleD/react-paginate) (setup pagination) `npm i axios`
+  - [ ] [react-icons](https://react-icons.github.io/react-icons/) (setup icons) `npm i react-icons`
+
+- [ ] **Setup Routes and Navigations in:**
+  - [ ] index.js
+  - [ ] NavBar.jsx
+  - [ ] App.js
+- [ ] **Develop Helmet page**
+- [ ] **Develop Home page**
+  - [ ] *Fetch repos and populate with the following details:*
+    - [ ] id
+    - [ ] avatar
+    - [ ] Repo name
+    - [ ] Main language
+  - [ ] Button to a single page repo
+- [ ] **Develop Repo page**
+  - [ ] *Display more detail about Repo:*
+    - [ ] id
+    - [ ] avatar
+    - [ ] Repo name
+    - [ ] Description
+    - [ ] Main language
+    - [ ] Created at
+    - [ ] Latest Update
+    - [ ] Visibility
+    - [ ] Repo URL
+- [ ] **Develop PageNoteFound - 404**
+- [ ] **Develop ErrorBoundary page**
 
 ## Available Scripts
 
@@ -39,27 +86,6 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
 
@@ -68,3 +94,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
