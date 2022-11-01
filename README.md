@@ -7,22 +7,21 @@ Click to see [my repos api](https://api.github.com/users/safoah91)
 
 ## Todos
 
-- [ ] **Structure project and remove unneccesory file/folder**
-  - [ ] **Create components directory with the following pages**
-    - [ ] Helmet (to setup SEO)
-    - [ ] Home (to display all repos)
-    - [ ] Repo (to display a particular repo)
-    - [ ] PageNotFound (display page not found - 404)
-    - [ ] ErrorBoundary (test error boundary)
-    - [ ] Navbar (setup navigations)
-    - [ ] Footer (display footer on each page)
-- [ ] **Install packages**
-  - [ ] [Helmet](https://www.javatpoint.com/react-helmet) (setup SEO) `npm i --save react-helmet`
-  - [ ] [react-router-dom](https://v5.reactrouter.com/web/guides/quick-start) (setup Rounters) `npm i react-router-dom@6`
-  - [ ] [axios](https://axios-http.com/docs/intro) (fetch data from an endpoint) `npm i axios`
-  - [ ] [react-paginate](https://github.com/AdeleD/react-paginate) (setup pagination) `npm i axios`
-  - [ ] [react-icons](https://react-icons.github.io/react-icons/) (setup icons) `npm i react-icons`
-
+- [x] **Structure project and remove unneccesory file/folder**
+  - [x] **Create components directory with the following pages**
+    - [x] Helmet (to setup SEO)
+    - [x] Home (to display all repos)
+    - [x] Repo (to display a particular repo)
+    - [x] PageNotFound (display page not found - 404)
+    - [x] ErrorBoundary (test error boundary)
+    - [x] Navbar (setup navigations)
+    - [x] Footer (display footer on each page)
+- [x] **Install packages**
+  - [x] [Helmet](https://www.javatpoint.com/react-helmet) (setup SEO) `npm i --save react-helmet`
+  - [x] [react-router-dom](https://v5.reactrouter.com/web/guides/quick-start) (setup Rounters) `npm i react-router-dom@6`
+  - [x] [axios](https://axios-http.com/docs/intro) (fetch data from an endpoint) `npm i axios`
+  - [x] [react-paginate](https://github.com/AdeleD/react-paginate) (setup pagination) `npm i reac`
+  - [x] [react-icons](https://react-icons.github.io/react-icons/) (setup icons) `npm i react-icons`
 - [ ] **Setup Routes and Navigations in:**
   - [ ] index.js
   - [ ] NavBar.jsx
