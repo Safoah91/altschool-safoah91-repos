@@ -22,11 +22,11 @@ Click to see [my repos api](https://api.github.com/users/safoah91)
   - [x] [axios](https://axios-http.com/docs/intro) (fetch data from an endpoint) `npm i axios`
   - [x] [react-paginate](https://github.com/AdeleD/react-paginate) (setup pagination) `npm i reac`
   - [x] [react-icons](https://react-icons.github.io/react-icons/) (setup icons) `npm i react-icons`
-- [ ] **Setup Routes and Navigations in:**
-  - [ ] index.js
-  - [ ] NavBar.jsx
-  - [ ] App.js
-- [ ] **Develop Helmet page**
+- [x] **Setup Routes and Navigations in:**
+  - [x] index.js
+  - [x] NavBar.jsx
+  - [x] App.js
+- [x] **Develop Helmet page**
 - [ ] **Develop Home page**
   - [ ] *Fetch repos and populate with the following details:*
     - [ ] id
