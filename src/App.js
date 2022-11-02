@@ -6,12 +6,15 @@ import Footer from './components/Footer'
 import PageNotFound from './components/PageNotFound'
 
 function App() {
+
   return (
     <>
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/repo/:id' element={<Repo />} />
         <Route path='/error-boundary' element={<Repo />} />
+
         <Route path='*' element={<PageNotFound />} />
       </Routes>
       <Footer />

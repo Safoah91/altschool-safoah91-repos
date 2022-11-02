@@ -1,0 +1,38 @@
+/* .navbar {} */
+
+nav {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.logo a {
+  color: #fff;
+  display: flex;
+  align-items: flex-start;
+}
+
+.logo a span {
+  font-size: 2.5em;
+  font-family: 'Aclonica', sans-serif;
+
+}
+
+.navbar nav ul {
+  display: flex;
+  align-items: center;
+  width: 30%;
+}
+
+.navbar nav ul li {
+  margin: 5px;
+}
+
+.navbar nav ul li a {
+  padding: 10px;
+  color: #fff;
+  letter-spacing: 1px;
+}

@@ -27,7 +27,7 @@ Click to see [my repos api](https://api.github.com/users/safoah91)
   - [x] NavBar.jsx
   - [x] App.js
 - [x] **Develop Helmet page**
-- [ ] **Develop Home page**
+- [ ] **Develop Nav, Footer, Home page**
   - [ ] *Fetch repos and populate with the following details:*
     - [ ] id
     - [ ] avatar
@@ -93,7 +93,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
-
-
