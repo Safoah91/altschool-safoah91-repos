@@ -27,12 +27,12 @@ Click to see [my repos api](https://api.github.com/users/safoah91)
   - [x] NavBar.jsx
   - [x] App.js
 - [x] **Develop Helmet page**
-- [ ] **Develop Nav, Footer, Home page**
-  - [ ] *Fetch repos and populate with the following details:*
-    - [ ] id
-    - [ ] avatar
-    - [ ] Repo name
-    - [ ] Main language
+- [x] **Develop Nav, Footer, Home page**
+  - [x] *Fetch repos and populate with the following details:*
+    - [x] id
+    - [x] avatar
+    - [x] Repo name
+    - [x] Main language
   - [ ] Button to a single page repo
 - [ ] **Develop Repo page**
   - [ ] *Display more detail about Repo:*
@@ -45,7 +45,7 @@ Click to see [my repos api](https://api.github.com/users/safoah91)
     - [ ] Latest Update
     - [ ] Visibility
     - [ ] Repo URL
-- [ ] **Develop PageNoteFound - 404**
+- [x] **Develop PageNoteFound - 404**
 - [ ] **Develop ErrorBoundary page**
 
 ## Available Scripts

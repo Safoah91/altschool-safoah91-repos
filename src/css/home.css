@@ -9,11 +9,6 @@
 
 }
 
-.wrapper {
-  width: 80%;
-  margin: 0 auto;
-}
-
 .wrapper.content {
   display: flex;
   justify-content: space-between;

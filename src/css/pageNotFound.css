@@ -1,0 +1,58 @@
+.pageNotFound {
+  width: 100%;
+  background: url(./../assets/repo-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding: 142.6px 0px 100px;
+  margin-top: -80px;
+  text-align: center;
+}
+
+.pageNotFound .wrapper {
+  position: relative;
+}
+
+.pageNotFound .wrapper p {
+  color: #abb5cd;
+  font-size: 1.1em;
+}
+
+.pageNotFound .wrapper button {
+  padding: 15px 50px;
+  font-weight: bold;
+  color: #1F6FEB;
+  font-size: 1.2em;
+  background: #272F43;
+  border: 1px solid #8797BF;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.pageNotFound .wrapper img.globe {
+  position: absolute;
+  width: 80px;
+  top: -100px;
+  right: 380px;
+}
+
+.pageNotFound .wrapper img.globe2 {
+  position: absolute;
+  width: 100px;
+  top: 150px;
+  left: -180px;
+}
+
+.pageNotFound .wrapper img.globe3 {
+  position: absolute;
+  width: 300px;
+  top: 50px;
+  right: 10px;
+}
+
+.pageNotFound .wrapper img.globe4 {
+  position: absolute;
+  width: 200px;
+  bottom: -160px;
+  left: 180px;
+}

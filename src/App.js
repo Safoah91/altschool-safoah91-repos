@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Repo from './components/Repo'
 import Footer from './components/Footer'
 import PageNotFound from './components/PageNotFound'
+import ErrorBoundary from './components/ErrorBoundary'
 
 function App() {
 
@@ -13,7 +14,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/repo/:id' element={<Repo />} />
-        <Route path='/error-boundary' element={<Repo />} />
+        <Route path='/error-boundary' element={<ErrorBoundary />} />
 
         <Route path='*' element={<PageNotFound />} />
       </Routes>
