@@ -1,0 +1,117 @@
+.single-repo {
+  background: url(./../assets/repo-image.png);
+  margin: -5px;
+  padding: 80px 0px 70px;
+}
+
+.single-repo .repo {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.single-repo .repo-header {
+  border-radius: 10px 10px 0px 0px;
+  background: #0B0E11;
+  padding: 20px 20px 100px;
+}
+
+
+.single-repo .repo .repo-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.single-repo .repo .repo-header .repo-name {
+  color: #1F6FEB;
+  font-weight: bold;
+}
+
+.single-repo .repo .repo-header .repo-created_at {
+  color: #8797BF;
+  font-size: .8em;
+  margin-top: 5px;
+}
+
+
+
+.single-repo .repo .repo-header .repo-visibility {
+  background: transparent;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: .8em;
+  border: 1px solid #8797BF;
+}
+
+.single-repo .repo .repo-content {
+  text-align: center;
+  background: #1A2127;
+  padding: 20px;
+}
+
+.single-repo .repo .repo-content img {
+  border-radius: 50%;
+  width: 20%;
+  margin-top: -40px;
+}
+
+.single-repo .repo .repo-content p.repo-login {
+  color: #8797BF;
+  font-size: .8em;
+  margin-top: 5px;
+}
+
+.single-repo .repo .repo-content .repo-name {
+  color: #8797BF;
+
+}
+
+.single-repo .repo .repo-desc {
+  color: #AEAEAE;
+  font-size: 1.2em;
+  text-align: left;
+  margin: 20px 0px;
+}
+
+.single-repo .repo .repo-lang {
+  color: #8797BF;
+  font-size: .9em;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+
+.single-repo .repo .repo-lang .repo-lang-circle {
+  background: #1F6FEB;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.single-repo .repo .repo-footer {
+  border-radius: 0px 0px 10px 10px;
+  padding: 20px;
+  margin-top: -20px;
+  display: flex;
+  justify-content: space-between;
+  background: #1A2127;
+}
+
+.single-repo .repo .repo-footer .repo-updated_at span {
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.single-repo .repo .repo-footer .repo-updated_at small {
+  font-size: .8em;
+}
+
+.single-repo .repo .repo-footer .repo-updated_at {
+  display: flex;
+  flex-direction: column;
+  color: #8797BF;
+}

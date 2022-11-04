@@ -33,20 +33,19 @@ Click to see [my repos api](https://api.github.com/users/safoah91)
     - [x] avatar
     - [x] Repo name
     - [x] Main language
-  - [ ] Button to a single page repo
-- [ ] **Develop Repo page**
-  - [ ] *Display more detail about Repo:*
-    - [ ] id
-    - [ ] avatar
-    - [ ] Repo name
-    - [ ] Description
-    - [ ] Main language
-    - [ ] Created at
-    - [ ] Latest Update
-    - [ ] Visibility
-    - [ ] Repo URL
+  - [x] Button to a single page repo
+- [x] **Develop Repo page**
+  - [x] *Display more detail about Repo:*
+    - [x] avatar
+    - [x] Repo name
+    - [x] Description
+    - [x] Main language
+    - [x] Created at
+    - [x] Latest Update
+    - [x] Visibility
+    - [x] Repo URL
 - [x] **Develop PageNoteFound - 404**
-- [ ] **Develop ErrorBoundary page**
+- [x] **Develop ErrorBoundary page**
 
 ## Available Scripts
 

@@ -148,6 +148,7 @@ main .repos .repo .repo-lang .repo-lang-circle {
 .paginate .pagination {
   display: flex;
   gap: 20px;
+  color: #fff;
 }
 
 ul.pagination li {
@@ -164,7 +165,6 @@ ul.pagination li.active:hover {
   background: #3f83e8;
   border: none;
 }
-
 
 ul.pagination li a {
   display: inline-block;
