@@ -40,7 +40,7 @@ const Helmet = ({
 
   let metaImageCard
 
-  if (imageCard.startWith('https') || imageCard.startWith('http')) {
+  if (imageCard.startsWith('https') || imageCard.startsWith('http')) {
     metaImageCard = imageCard
   } else {
     metaImageCard = DOMAIN + imageCard

@@ -5,6 +5,20 @@ Implement an API fetch of your GitHub portfolio, show a page with a list of all 
 Click to see [my repos](https://github.com/safoah91)
 Click to see [my repos api](https://api.github.com/users/safoah91)
 
+
+## Screens
+
+#### Home
+![image](./src/assets/Home.png)
+
+#### Single Repository
+![image](./src/assets/Repo.png)
+
+#### Error Boundary
+![image](./src/assets/ErrorBoundary.png)
+
+#### Page Note Found - 404
+![image](./src/assets/PageNotFound.png)
 ## Todos
 
 - [x] **Structure project and remove unneccesory file/folder**
@@ -87,8 +101,5 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://altschool-safoah91-repos.netlify.app/](https://altschool-safoah91-repos.netlify.app/)

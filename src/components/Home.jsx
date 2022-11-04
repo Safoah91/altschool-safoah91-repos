@@ -4,6 +4,7 @@ import avatar from './../assets/avatar.png'
 import axios from 'axios';
 import { Link as SmoothLink } from 'react-scroll'
 import { Link } from 'react-router-dom';
+import Helmet from './Helmet'
 
 const Home = () => {
   const [data, setData] = useState([]);
@@ -31,38 +32,48 @@ const Home = () => {
 
 
   return (
-    <div className='home'>
-      <div className="hero">
+    <div>
+      <Helmet
+        title='home'
+        description='this is the description of this page'
+        keyword='react, router, error boundary'
+        largeTwitterCard={true}
+        imageCard={avatar}
+      />
+
+      <div className='home'>
+        <div className="hero">
 
 
-        <div className="wrapper content">
-          <div className="hero-content">
-            <h1>There’s no better way to showcase your projects</h1>
-            <p>GitHub is an online software development platform. It's used for storing, tracking, and collaborating on software projects.</p>
-            <SmoothLink to='main' smooth={true} duration={500}>
-              <button className='showcase-btn'>Showcase</button>
-            </SmoothLink>
-          </div>
-          <div className="avatar-content">
-            <img src={avatar} alt="repo avator" />
-            <h2 className='fullname'>Anastasia Safoah</h2>
-            <p className='profile-name'>Safaoh91</p>
-            <p className='title'>Frontend Developer</p>
+          <div className="wrapper content">
+            <div className="hero-content">
+              <h1>There’s no better way to showcase your projects</h1>
+              <p>GitHub is an online software development platform. It's used for storing, tracking, and collaborating on software projects.</p>
+              <SmoothLink to='main' smooth={true} duration={500}>
+                <button className='showcase-btn'>Showcase</button>
+              </SmoothLink>
+            </div>
+            <div className="avatar-content">
+              <img src={avatar} alt="repo avator" />
+              <h2 className='fullname'>Anastasia S. Lamptey</h2>
+              <p className='profile-name'>Safoah91</p>
+              <p className='title'>Frontend Developer</p>
+            </div>
           </div>
         </div>
+
+        <main name='main'>
+          <div className="wrapper">
+            <header>
+              <h1>My Repos</h1>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+            </header>
+            <section className="repos">
+              {data}
+            </section>
+          </div>
+        </main>
       </div>
-
-      <main name='main'>
-        <div className="wrapper">
-          <header>
-            <h1>My Repos</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
-          </header>
-          <section className="repos">
-            {data}
-          </section>
-        </div>
-      </main>
     </div>
   )
 }

@@ -6,7 +6,7 @@ import './../css/errorBoundary.css'
 
 const ShowErrorBoundary = () => {
   const miniHeroHeading = 'Error Boundary'
-  const miniHeroPara = 'Error caught by error boundaories'
+  const miniHeroPara = 'Error caught by error boundaries'
 
   return (
     <div className='errorBoundary'>
