@@ -1,14 +1,33 @@
-import React from 'react'
-import MiniHero from './MiniHero'
+import React, { Component } from 'react';
+import ShowErrorBoundary from './ShowErrorBoundary';
 
-const ErrorBoundary = () => {
-  const miniHeroHeading = 'Error Boundary'
-  const miniHeroPara = 'Details of a single repository'
-  return (
-    <div>
-      <MiniHero miniHeroHeading={miniHeroHeading} miniHeroPara={miniHeroPara} />
-    </div>
-  )
+class ErrorBoundary extends Component {
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      hasError: false
+    }
+  }
+
+  static getDerivedStateFromError(error) {
+    return {
+      hasError: true
+    }
+  }
+
+
+  render() {
+    if (this.state.hasError) {
+      return (
+        <>
+          <ShowErrorBoundary />
+        </>
+
+      )
+    }
+    return this.props.children
+  }
 }
 
-export default ErrorBoundary
+export default ErrorBoundary;

@@ -1,0 +1,39 @@
+.errorBoundary main {
+  padding: 90px 0px 50px;
+  margin-top: -5px;
+  text-align: center;
+  background: url(./../assets/repo-image.png);
+}
+
+
+.errorBoundary main .wrapper h1 {
+  font-size: 3em;
+  color: #fff;
+}
+
+.errorBoundary main .wrapper p {
+  color: rgba(255, 255, 255, 0.695);
+  margin: 10px 0px 40px;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.errorBoundary main .wrapper button {
+  border: 1px solid #8797BF;
+  background: #272F43;
+  font-weight: bold;
+  color: #1F6FEB;
+  font-size: 1.4em;
+  padding: 15px 50px;
+  border-radius: 10px;
+}
+
+.errorBoundary main .wrapper button:hover {
+  cursor: pointer;
+  background: #434f6d;
+}
+
+.errorBoundary main .wrapper div {
+  text-align: center;
+  margin-top: 50px;
+}

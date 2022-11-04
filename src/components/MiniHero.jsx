@@ -1,4 +1,4 @@
-import React from 'react'
+import './../css/miniHero.css'
 
 const MiniHero = ({ miniHeroHeading, miniHeroPara }) => {
   return (

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import './../css/home.css'
 import avatar from './../assets/avatar.png'
 import axios from 'axios';
-import { Link, animateScroll as scroll } from 'react-scroll'
+import { Link } from 'react-scroll'
 import ReactPaginate from 'react-paginate';
 
 const Home = () => {

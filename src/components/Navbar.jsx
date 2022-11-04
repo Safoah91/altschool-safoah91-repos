@@ -18,17 +18,17 @@ const Navbar = () => {
             <Link to='/'>Repositories</Link>
           </li>
           <li>
-            <Link to='/error-boundary'>Error Boundary</Link>
+            <Link to='/show-error-boundary'>Error Boundary</Link>
           </li>
-          <li>
-            <a target='_blank' href="https://github.com/safoah91">
+          <li className='github0-icon'>
+            <a target='_blank' rel='noreferrer' href="https://github.com/safoah91">
               <FaGithub size={30} />
             </a>
           </li>
 
         </ul>
-      </nav>
-    </div>
+      </nav >
+    </div >
   )
 }
 

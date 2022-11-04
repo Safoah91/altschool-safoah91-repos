@@ -24,12 +24,23 @@ nav {
 .navbar nav ul {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   width: 30%;
 }
 
 .navbar nav ul li {
   margin: 5px;
 }
+
+.navbar nav ul li.github {
+  padding-right: 0px;
+}
+
+.navbar nav ul li.github a {
+  padding: 0px;
+}
+
+
 
 .navbar nav ul li a {
   padding: 10px;

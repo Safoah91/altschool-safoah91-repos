@@ -1,0 +1,19 @@
+.mini-hero {
+  background: url(./../assets/mini-hero-bg.png);
+  padding: 160px 0px 100px;
+  margin-top: -75px;
+}
+
+.mini-hero .wrapper {
+  text-align: center;
+}
+
+
+.mini-hero .wrapper h1 {
+  font-size: 2.6em;
+  color: #fff;
+}
+
+.mini-hero .wrapper p {
+  color: #fff;
+}
